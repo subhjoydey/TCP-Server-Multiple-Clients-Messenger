@@ -35,6 +35,16 @@ The ncurses library is a special interface which helps to do special operations 
 To compile a program which uses ncurses library we compile as :
 gcc clienttcp client_tcp.c -lncurses
 
+### To run code
+
+* gcc -o mserver mserver.c
+./mserver
+
+* gcc -o clienttcp client_tcp.c -lncurses
+./clienttcp
+
+We can run as many clients as we want to connect with the server and message can be sent from any client to another.
+
 ## Main Code
 
 ### SERVER
